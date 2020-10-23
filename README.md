@@ -37,6 +37,10 @@ In the container console, enter:
 ```
 git clone https://git.openwrt.org/openwrt/openwrt.git
 cd openwrt
+```
+## CHECKOUT 18.06
+```
+git checkout openwrt-18.06
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 make menuconfig
